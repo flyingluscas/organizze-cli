@@ -1,0 +1,42 @@
+{
+  "name": "organizze-cli",
+  "version": "0.1.0",
+  "description": "Organizze CLI for managing your finances using your best friend, the terminal!",
+  "preferGlobal": true,
+  "bin": "./bin/organizze",
+  "scripts": {
+    "test": "mocha ./tests",
+    "check-style": "eslint ./bin/organizze ./lib ./tests",
+    "fix-style": "eslint ./bin/organizze ./lib ./tests --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyingluscas/organizze-cli.git"
+  },
+  "keywords": [
+    "Organizze",
+    "CLI",
+    "finances"
+  ],
+  "author": "Lucas Pires",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flyingluscas/organizze-cli/issues"
+  },
+  "homepage": "https://github.com/flyingluscas/organizze-cli#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "inquirer": "^3.2.2",
+    "preferences": "^0.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.6.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^3.5.3"
+  }
+}
