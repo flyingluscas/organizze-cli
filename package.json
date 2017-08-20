@@ -5,7 +5,7 @@
   "preferGlobal": true,
   "bin": "./bin/organizze",
   "scripts": {
-    "test": "mocha ./tests",
+    "test": "mocha ./tests/**/*.js",
     "check-style": "eslint ./bin/organizze ./lib ./tests",
     "fix-style": "eslint ./bin/organizze ./lib ./tests --fix"
   },
