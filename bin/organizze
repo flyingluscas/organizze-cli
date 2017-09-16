@@ -1,10 +1,20 @@
 #!/usr/bin/env node
 
 const commander = require('commander')
-const { version } = require('../package')
+const {
+  CLI_DESCRIPTION,
+  CLI_VERSION,
+} = require('../lib/config')
+
+const login = require('../lib/login')
 
 commander
-  .version(version)
-  .description('Manage your finances using Organizze and your best friend the terminal')
+  .version(CLI_VERSION)
+  .description(CLI_DESCRIPTION)
+
+commander
+  .command('login')
+  .description('Login to your account.')
+  .action(login)
 
 commander.parse(process.argv)

@@ -1,7 +1,7 @@
 {
-  "name": "organizze-cli",
+  "name": "organizze",
   "version": "0.1.0",
-  "description": "Organizze CLI for managing your finances using your best friend, the terminal!",
+  "description": "Manage your finances using Organizze and your best friend the terminal!",
   "preferGlobal": true,
   "bin": "./bin/organizze",
   "scripts": {
@@ -27,6 +27,7 @@
   "dependencies": {
     "commander": "^2.11.0",
     "inquirer": "^3.2.2",
+    "node-fetch": "^1.7.3",
     "preferences": "^0.2.1"
   },
   "devDependencies": {
@@ -38,6 +39,7 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "mocha": "^3.5.3",
-    "nixt": "^0.5.0"
+    "nixt": "^0.5.0",
+    "rimraf": "^2.6.2"
   }
 }
