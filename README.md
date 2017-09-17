@@ -10,12 +10,20 @@ Manage your finances using [Organizze][link-organizze] and your best friend the 
 Via NPM
 
 ``` bash
-$ npm install -g organizze-cli
+$ npm install -g organizze
 ```
 
 ## Usage
 
-Coming soon...
+### Login
+
+First log in to your Organizze account, you will need your e-mail and an API key (wich you can [grab it here][link-organizze-api-keys])
+
+``` bash
+$ organizze login
+```
+
+More commands coming soon...
 
 ## Change log
 
@@ -51,3 +59,4 @@ The MIT License (MIT). Please see [License File](LICENSE) for more information.
 [link-author]: https://github.com/flyingluscas
 [link-contributors]: ../../contributors
 [link-organizze]: https://organizze.com.br
+[link-organizze-api-keys]: https://app.organizze.com.br/configuracoes/api-keys
