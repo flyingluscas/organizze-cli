@@ -1,6 +1,6 @@
 {
   "name": "organizze",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Manage your finances using Organizze and your best friend the terminal!",
   "preferGlobal": true,
   "bin": "./bin/organizze",
